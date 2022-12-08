@@ -47,14 +47,17 @@ nav {
 
 .nav-link ul {
     display: flex;
-    margin: 0 1rem;
+    margin: 0 3rem;
 }.nav-link li {
     list-style: none;
 }.nav-link a {
+    display: inline-block;
     font-size: 1.25rem;
     text-decoration: none;
     color: #fff;
     margin: 0 0.5rem;
+    transform: translateY(4px);
+    transition: all 0.15s;
 }.nav-link a:hover {
     color: #E94560;
 }.nav-link a ion-icon {
