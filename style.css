@@ -26,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     height: 5rem;
-    background: #16213E;
+    background: #0F3460;
 }
 
 .logo {
@@ -69,4 +69,59 @@ nav {
 
 body {
     min-height: 100vh;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #16213E;
+}
+
+.main-thumbnail {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background: url(./images/main-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mt-text {
+    transform: translateX(10rem);
+    font-size: 1.25rem;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    width: 35%;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.book-shelf {
+    width: 85%;
+    padding: 2rem 0;
+    background: #0F3460;
+    color: #fff;
+    border-bottom: 1px solid #E94560;
+}.book-shelf h1 {
+    margin-left: 2rem;
+}
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    height: 100%;
+    padding: 1rem;
+    background: #fff;
+}.books a {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}.books a img {
+    height: 180px;
+    transition: all 0.15s;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.6));
+}.books a img:hover {
+    transform: scale(1.1);
+    filter: contrast(150%);
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.6));
 }
