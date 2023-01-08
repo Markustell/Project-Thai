@@ -10,10 +10,10 @@
   <title>Project thai - home</title>
 </head>
 
-<body class="bg-indigo-900 flex flex-col">
+<body class=" flex flex-col bg-blue-900">
   <nav
-    class="lg:px-20 px-5 py-5 bg-indigo-700 shadow text-white flex md:flex-row md:items-center md:justify-between flex-col justify-center gap-x-24">
-    <div class="cursor-pointer flex mdgap-4 items-center justify-center ">
+    class="lg:px-20 px-5 py-5 bg-blue-500 shadow text-white flex md:flex-row md:items-center md:justify-between flex-col justify-center gap-x-24">
+    <div class="cursor-default flex mdgap-4 items-center justify-center ">
       <img src="./images/logo.png" class="h-10 inline">
       <span class="text-2xl font-bold">Project Thai</span>
     </div>
@@ -28,7 +28,7 @@
       ">
         <a href="#">
           <ion-icon name="home"></ion-icon>หน้าหลัก</a>
-      </li >
+      </li>
       <li class="inline hover:scale-125
       text-xl cursor-pointer
       transition all duration-300
@@ -43,7 +43,8 @@
   </nav>
 
   <header>
-    <section class="bg-header bg-auto bg-no-repeat bg-cover bg-center h-50 text-white text-sm sm:text-2xl p-5 ">
+    <section
+      class="bg-header bg-auto bg-no-repeat bg-cover bg-center h-50 text-white text-sm sm:text-2xl p-5 cursor-default">
       <h1 class="my-10 mx-4">"The more that you read, the more things you will know.
         <br>The more that you learn, the more places you'll go."
       </h1>
@@ -56,51 +57,133 @@
 
   <main>
     <!--V main container V-->
-    <div class="py-5 mx-auto md:mx-2  flex flex-col ">
+    <div class="py-5 mx-auto md:mx-2  flex flex-col gap-5">
 
-      <!--V title V-->
-      <div class="md:mx-20 flex flex-col bg-indigo-700 pb-5">
-        <div class="text-xl text-white p-5 flex flex-row items-center">
+      <!--V title หน้าแนะนำ V-->
+      <div class="md:mx-20 flex flex-col bg-white bg-opacity-10 pb-5">
+        <div class="text-xl text-white p-5 flex flex-row items-center cursor-default">
           <ion-icon name="thumbs-up-sharp"></ion-icon>
           <h2>หนังสือแนะนำ</h2>
         </div>
-        <div class="flex flex-auto flex-wrap justify-st items-center gap-4 mx-4">
-          <a href="httaBook.ru.ac.th/ebook_files/AC103_37/mobile/index.html" title="หนังสือการบัญชีทั่วไป"
-            target="_blank"><img src="./images/cover/การบัญชีทั่วไป.jpg" alt="general accounting" class="aBook"></a>
-          <a href="httaBook.ru.ac.th/ebook_files/ACC1101/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 1"
+        <div class="flex flex-auto flex-wrap justify-st items-center gap-4 mx-4 bookshelf">
+          <a href="http://e-book.ru.ac.th/ebook_files/AC103_37/mobile/index.html" title="หนังสือการบัญชีทั่วไป"
+            target="_blank"><img src="./images/cover/การบัญชีทั่วไป.jpg" alt="general accounting"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/ACC1101/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 1"
             target="_blank"><img src="./images/cover/การบัญชีขั้นต้น1.jpg" alt="principles of accounting 1"
-              class="aBook"></a>
-          <a href="httaBook.ru.ac.th/ebook_files/ACC1102/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 2"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/ACC1102/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 2"
             target="_blank"><img src="./images/cover/การบัญชีขั้นต้น2.jpg" alt="principles of accounting 2"
-              class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/GE477_H/mobile/index.html#p=1" title="ภูมิศาสตร์และการพัฒนา"
+            target="_blank"><img src="./images/cover/ภูมิ.jpg" alt="GEOGRAPHY AND DEVELOPMENT"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/GM304/mobile/index.html" title="นโยบานธุรกิจ" target="_blank"><img
+              src="./images/cover/Bs.P.jpg" alt="ฺBusiness Policy"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/GM103/" title="ความรู้เบื้องต้นเกี่ยวกับธุรกิจ"
+            target="_blank"><img src="./images/cover/bs.B.jpg" alt="Introduction To Business"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+
+          <a href="http://e-book.ru.ac.th/ebook_files/LAW100158152/mobile/index.html" title="หลักกฎหมายมหาชน"
+            target="_blank"><img src="./images/cover/กฎหมาย.jpg" alt="PRINCIPLES OF PUBLIC LAW"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/LAW1003/mobile/index.html"
+            title="กฎหมายแพ่งและพาณิชย์ว่าด้วยนิติกรรมและสัญญา" target="_blank"><img
+              src="./images/cover/1442481328_17-9-2558 15-32-04.jpg"
+              alt="CIVIL AND COMMERCIAL CODE : JURISTIC ACTS AND CONTRACTS"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
         </div>
       </div>
 
-      <!--V title V-->
-      <div class=" md:mx-20 flex flex-col bg-indigo-700 pb-5">
-        <div class="text-xl text-white p-5 flex flex-row items-center">
+      <!--V title หน้าทั่วไป V-->
+      <div class=" md:mx-20 flex flex-col bg-white bg-opacity-10 pb-5">
+        <div class="text-xl text-white p-5 flex flex-row items-center cursor-default">
           <ion-icon name="book-sharp"></ion-icon>
           <h2>หนังสือทั่วไป</h2>
         </div>
-        <div class="flex flex-auto flex-wrap justify-st items-center gap-4 mx-4">
-          <a href="httaBook.ru.ac.th/ebook_files/AC103_37/mobile/index.html" title="หนังสือการบัญชีทั่วไป"
-            target="_blank"><img src="./images/cover/การบัญชีทั่วไป.jpg" alt="general accounting" class="aBook"></a>
-          <a href="httaBook.ru.ac.th/ebook_files/ACC1101/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 1"
-            target="_blank"><img src="./images/cover/การบัญชีขั้นต้น1.jpg" alt="principles of accounting 1"
-              class="aBook"></a>
-          <a href="httaBook.ru.ac.th/ebook_files/ACC1102/mobile/index.html" title="หนังสือการบัญชีขั้นต้น 2"
-            target="_blank"><img src="./images/cover/การบัญชีขั้นต้น2.jpg" alt="principles of accounting 2"
-              class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
-          <a href="#" title="dummy"><img src="./images/cover/book_dummy.png" alt="dummy" class="aBook"></a>
+        <!--flex flex-auto flex-wrap justify-st items-center gap-4 mx-4-->
+        <div class="flex flex-auto flex-wrap justify-st items-center gap-4 mx-4 bookshelf">
+          <a href="http://e-book.ru.ac.th/ebook_files/CT105/" title="หนังสือวิทยาการคอมพิวเตอร์เบิ้องต้น"
+            target="_blank"><img src="./images/cover/วิทยาการคอมพิวเตอร์เบิ้องต้น.jpg"
+              alt="introduction to computer science"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/CM103/mobile/index.html" title="หนังสือเคมีเบื้องต้น"
+            target="_blank"><img src="./images/cover/เคมีเบื้องต้น.jpg" alt="introduction to chemistry"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/BI103_54/" title="หนังสือชีววิทยาเบื้องต้น" target="_blank"><img
+              src="./images/cover/ชีววิทยาเบื้องต้น.jpg" alt="introduction to biolgy"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/AN354_S/#" title="สังคมและวัฒนธรรมจีน" target="_blank"><img
+              src="./images/cover/สังคม.jpg" alt="introduction to chemistry"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/AN353/mobile/index.html#p=1" title="สังคมและวัฒนธรรมเกาหลี"
+            target="_blank"><img src="./images/cover/สังคมเกาหลี.jpg" alt="Korean Society and Culture"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/ANT3051/"
+            title="ความสัมพันธ์ทางสังคมและวัฒนธรรมระหว่างอาเซียนกับเอเซียตะวันออก" target="_blank"><img
+              src="./images/cover/ความสำคัญทางสังคม.jpg" alt="Socio-cultural Relations between ASEAN and East Asia"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/AG103/mobile/index.html" title="การเกษตรเบื้องต้น"
+            target="_blank"><img src="./images/cover/เกษตร.jpg" alt="INTRODUCTION TO AGRICULTURE"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EC103/mobile/index.html" title="เศรษฐศาสตร์ทั่วไป"
+            target="_blank"><img src="./images/cover/เศษ.jpg" alt="General Economic"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EC111/mobile/index.html" title="เศรษศาสตร์จุลภาค 1"
+            target="_blank"><img src="./images/cover/จุล.jpg" alt="MICROECONOMICS 1"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EC211/mobile/index.html" title="เศรษศาสตร์จุลภาค 2"
+            target="_blank"><img src="./images/cover/จุล2.jpg" alt="MICROECONOMICS 2"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EC451/mobile/index.html" title="สถาบันการค้าระหว่างประเทศ"
+            target="_blank"><img src="./images/cover/การค้า.jpg" alt="INTERNATIONAL TRADE INSTITUTIONS"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EC454/mobile/index.html" title="การค้าต่างประเทศของประเทศไทย"
+            target="_blank"><img src="./images/cover/การค้า1.1.jpg" alt="FOREIGN TRADE OF THAILAND"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/EN101_51/" title="ประโยคพื้นฐานและศัพท์จำเป็นในชีวิตประจำวัน"
+            target="_blank"><img src="./images/cover/Eg.jpg"
+              alt="Basic Sentences and Essential Vocabulary In Daily Life"
+              class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+              ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/ENG1002/mobile/index.html" title="ประโยคและศัพท์"
+            target="_blank"><img src="./images/cover/Eg.2.jpg" alt="SENTENCES AND VOCABULARY IN GENERAL USE"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/ENG2002/mobile/index.html" title="การอ่านตีความภาษาอังกฤษ"
+            target="_blank"><img src="./images/cover/eg3.jpg" alt="ENGLISH INTERPRETATIVE READING"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
+          <a href="http://e-book.ru.ac.th/ebook_files/GE410/mobile/index.html" title="การเปลี่ยนแปลงภูมิอากาศ"
+            target="_blank"><img src="./images/cover/Oc..jpg" alt="Climatic Change"
+            class="transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300 drop-shadow-lg"
+            ></a>
         </div>
       </div>
 
@@ -109,8 +192,9 @@
   </main>
 
   <footer
-    class="flex flex-col gap-6 md:flex md:flex-auto md:flex-row md:items-center md:justify-between md:px-20 md:py-4 text-white bg-gray-800">
-    <div class="flex flex-row items-center justify-center gap-10">
+    class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between justify-center md:px-20 md:py-4 text-white bg-gray-800">
+
+    <div class="flex md:flex-row flex-col items-center justify-center gap-10">
       <img class="h-44" src="./images/logo.png" alt="logo">
       <ul class="flex flex-row gap-4 ">
         <li class="inline"><a href="#">หน้าหลัก</a></li>
@@ -118,7 +202,7 @@
       </ul>
     </div>
 
-    <div class="foot-right">
+    <div>
       <h3>จัดทำโดย</h3>
       <p>กลุ่มสมองทำงานหนัก</p>
     </div>
